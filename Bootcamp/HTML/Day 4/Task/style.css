@@ -35,9 +35,9 @@
 }
 
 .content {
-    background-color: darkcyan;
     max-width: fit-content;
-}
+    margin: auto;
+  }
 
 .head {
     background-color: #04AA6D;
@@ -57,4 +57,9 @@
 
 #pageTitle {
     font-family: 'Whisper', cursive;
+}
+
+.landingPage {
+    background-color: blanchedalmond;
+    
 }
