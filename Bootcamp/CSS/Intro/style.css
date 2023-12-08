@@ -1,0 +1,49 @@
+/* This selects all elements on the page */
+* {
+    background-color: bisque;
+    margin: auto;
+    max-width: fit-content;
+    /* Font family allows us to change the font of our elements*/
+    font-family: 'Merriweather', serif;
+    font-family: 'Whisper', cursive;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: cornflowerblue;
+    padding: 20px 20px 20px 20px;
+}
+
+h2 {
+    background-color: coral;
+}
+
+/* Element selector selects all elements of the desired type in the document. */
+
+p {
+    background-color: coral;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ID Selector selects an element by its ID. ID selector takes precident over class or element selector */
+
+#p2 {
+    background-color: aquamarine;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Class selector will select elements by their class attribute. */
+
+.list {
+    background-color: blue;
+    color: aliceblue;
+}
+
+/* Group selector allows us to chain selectors and grab all that apply */
+
+h2, h3, h4 {
+    background-color: aquamarine;
+}

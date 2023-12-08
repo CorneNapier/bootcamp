@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    .content {
+        max-width: fit-content;
+        margin: auto;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Form Examples</title>
+    
+</head>
+
+<body class="content" style="background-color: beige;">
+    <h1 style="color: cornflowerblue;">Example Form</h1>
+
+    <div class="topnav" id="myTopNav">
+        <a href="http://127.0.0.1:5500/HTML/Day%204/Task/index.html" class="active"><button type="button" class="button">Home</button></a>
+    </div>
+    <br>
+
+    <form action="confirmation.html">
+
+        <label for="favLanguage" style="color: coral;">What is your favourite coding language?</label>
+        <br>
+        <input type="radio" id="html" name="favLanguage" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="css" name="favLanguage" value="CSS">
+        <label for="css">CSS</label>
+        <br>
+        <input type="radio" id="javascript" name="favLanguage" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <br>
+        <br>
+        <label for="enjoy" style="color: coral;">Favourite movie genre? Please select all that apply:</label>
+        <br>
+        <label for="enjoy">Horror</label>
+        <input id="enjoy" type="checkbox">
+        <br>
+        <label for="enjoy">Action</label>
+        <input id="enjoy" type="checkbox">
+        <br>
+        <label for="enjoy">Comedy</label>
+        <input id="enjoy" type="checkbox">
+        <br>
+        <label for="enjoy">Action</label>
+        <input id="enjoy" type="checkbox">
+        <br>
+        <label for="enjoy">None of the above</label>
+        <input id="enjoy" type="checkbox">
+        <br>
+        <br>
+        <label for="file" style="color: coral;">Upload File:</label>
+        <input id="file" type="file">
+        <br>
+        <br>
+        <label for="aboutMe">Please write something about yourself in the space provided:</label>
+        <br>
+        <textarea id="aboutMe" cols="30" rows="10" required minlength="5" maxlength="250"></textarea>
+        <br>
+        <br>
+        <label for="food" style="color: coral;">What would you like to eat?</label>
+        <br>
+        <select name="food" id="food" required>
+            <option value="">Please choose an option below:</option>
+            <option value="Burger">Burger</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Curry">Curry</option>
+        </select>
+        <br>
+        <br>
+        <input type="reset" value="Clear">
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+</body>
+
+</html>
